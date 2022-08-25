@@ -1,0 +1,593 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 6.25rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #47dbdb;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted rgb(199, 66, 66) 6px;
+  border-bottom: none;
+  width: 15%;
+  margin: 50px auto;
+}
+
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+header{
+   /* margin: 0 auto ; */
+   display: flex;
+   align-items: center;
+   /* padding-top: 10px; */
+   justify-content:center;
+}
+
+
+
+.personalIcon{
+  width: 20%;
+  height: 10%;
+  
+}
+
+.navbar{
+  font-size: 1.15rem;
+  height: 80px;
+  width: 800px;
+  padding-top: 40px;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: flex-end;
+  
+}
+
+.top-container {
+  background-image: url(https://images.unsplash.com/photo-1596039793618-eefbea88105a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80) ;
+  /* position: relative; */
+  padding-top: 100px;
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.code-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.chilli-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.wrap-block-columns{
+  /* display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; */
+
+
+}
+
+.block-column{
+  width: 20%;
+  display: inline-block;
+}
+
+.h2OnCover{
+  color: rgb(253, 69, 69);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight:bold;
+  padding-bottom: 10px;
+}
+
+.bikeModel p{
+  padding: 0 10%;
+  /* font-size: 0.8rem; */
+}
+
+.bikeModelPic{
+  width: 40%;
+}
+
+.price-columns{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.others{
+  width: 350px;
+  height: 450px;
+  border: 3px solid black;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.1rem;
+
+}
+
+.ours{
+  width: 350px;
+  height: 450px;
+  border: 3px solid black;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.1rem;
+
+}
+
+.witness p{
+  padding: 0 10%;
+}
+
+.FAQContent{
+  text-align: left;
+  padding: 0 10%;
+}
+
+.bookNow{
+  margin-bottom: 50px;
+}
+
+.rentalPage{
+  text-align: left;
+  padding:5% 10%;
+}
+
+.rentalPage p{
+  font-size: 0.8rem;
+  font-weight: lighter;
+ 
+}
+
+.bikepicR{
+  width: 40%;
+}
+
+.btn2 {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 31px;
+  padding: 10px 40px 10px 40px;
+  text-decoration: none;
+}
+
+.btn2:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #fcff3d);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #fcff3d);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #fcff3d);
+  background-image: -o-linear-gradient(top, #3cb0fd, #fcff3d);
+  background-image: linear-gradient(to bottom, #3cb0fd, #fcff3d);
+  text-decoration: none;
+}
+
+.bookingPage{
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+}
+
+.leftContainer{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rightContainer{
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  padding: 0 8% 8%;
+}
+
+.bikepicB{
+  width: 75%;
+}
+
+.select {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 15px;
+  width: 100%;
+}    .select select {
+      font-family: 'Arial';
+      display: inline-block;
+      width: 100%;
+      cursor: pointer;
+      padding: 10px 10px;
+      outline: 0;
+      border: 2px solid #ffffff;
+      border-radius: 14px;
+      background: #eaabab;
+      color: #ff0000;
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+  }
+      .select select::-ms-expand {
+          display: none;
+      }
+      .select select:hover,
+      .select select:focus {
+          color: #a918b7;
+          background: #d298f6;
+      }
+      .select select:disabled {
+          opacity: 0.5;
+          pointer-events: none;
+      }
+.select_arrow {
+  position: absolute;
+  top: 16px;
+  right: 15px;
+  pointer-events: none;
+  border-style: solid;
+  border-width: 8px 5px 0px 5px;
+  border-color: #7b7b7b transparent transparent transparent;
+}
+.select select:hover ~ .select_arrow,
+.select select:focus ~ .select_arrow {
+  border-top-color: #000000;
+}
+.select select:disabled ~ .select_arrow {
+  border-top-color: #cccccc;
+}
+
+@media only screen and (max-width: 750px){
+  body{
+    background-color: #000000;
+  }
+
+  .block-column{
+    width: 100%;
+    display:block;
+  }
+
+  .wrap-block-columns{
+    display:block;
+    float: none;
+  
+  
+  }
+
+  .navbar{
+    font-size: 0.8rem;
+    height: 80px;
+    width: 800px;
+    padding-top: 40px;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+    
+  }
+
+  .personalIcon{
+    width: 50%;
+    height: 40%;
+    
+  }
+
+  header{
+   /* margin: 0 auto ; */
+   display: flex;
+   align-items: center;
+   /* padding-top: 10px; */
+   justify-content:center;
+}
+
+.h2OnCover{
+  color: rgb(253, 69, 69);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight:bold;
+  padding-bottom: 10px;
+}
+
+.bikeModelPic{
+  width: 100%;
+}
+
+body {
+  color: #d7e4e1;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+.btn2 {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 10px;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.btn2:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+}
+
+
+@media only screen and (max-width: 454px){
+  body{
+    background-color: #000000;
+  }
+
+  .block-column{
+    width: 100%;
+    display:block;
+  }
+
+  .wrap-block-columns{
+    display:block;
+    float: none;
+  
+  
+  }
+
+  .navbar{
+    font-size: 0.8rem;
+    height: 80px;
+    width: 800px;
+    padding-top: 40px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    
+  }
+
+  .personalIcon{
+    width: 50%;
+    height: 40%;
+    
+  }
+
+  header{
+   /* margin: 0 auto ; */
+   display: flex;
+   align-items: center;
+   /* padding-top: 10px; */
+   justify-content:center;
+   flex-wrap: wrap;
+}
+
+.h2OnCover{
+  color: rgb(253, 69, 69);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-weight:bold;
+  padding-bottom: 10px;
+}
+
+.bikeModelPic{
+  width: 100%;}
+
+h1{
+color: #ffffff;
+font-size: 3.5rem;
+margin: 50px auto 0 auto;
+font-family: 'Sacramento', cursive;
+text-align: center;
+}
+
+.price-columns{
+  display: block;
+  float: none;
+  width:50%;
+  margin: 0;
+  padding: 0;
+  text-align:center ;
+}
+
+.others{
+  width:100%;
+  height: 100%;
+ 
+  border: 3px solid black;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.1rem;
+
+}
+
+.ours{
+  width: 100%;
+  height: 100%;
+  
+  border: 3px solid black;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.1rem;
+
+}
+
+.gMap{
+  width: 50%;
+}
+
+body {
+  color: #a0b8b3;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+.btn2 {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 10px;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.btn2:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+}
+
