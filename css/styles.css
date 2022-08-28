@@ -363,6 +363,82 @@ header{
   border-top-color: #cccccc;
 }
 
+.locationP{
+  padding: 0 10%;
+  margin-bottom: 7%;
+}
+
+.locationPic{
+  width: 35%;
+}
+
+.locationResult{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  padding-left: 15%;
+  line-height: 5%;
+  font-size: 60%;
+}
+
+.personalIconLocationPage{
+  width:5%;
+  margin-top: 5%;
+}
+
+.email{
+  width: 30%;
+}
+.call{
+  width: 30%;
+}
+.address{
+  width: 30%;
+}
+
+.contact{
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-around;
+  margin-bottom: 5%;
+
+}
+
+.article1{
+  width: 45%;
+}
+
+.article2{
+  width: 45%;
+}
+
+.article3{
+  width: 45%;
+}
+
+.article4{
+  width: 45%;
+}
+
+.upperRow{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 5%;
+}
+
+.lowerRow{
+  display: flex;
+  justify-content:  space-around;
+  margin-bottom: 5%;
+}
+.articlePic4{
+  width:45%;
+  height: 66.5%;
+}
+
+
+
 @media only screen and (max-width: 750px){
   body{
     background-color: #000000;
@@ -450,6 +526,37 @@ body {
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
 }
+
+.upperRow{
+  display: block;
+  float: none;
+}
+
+.lowerRow{
+  display: block;
+  float: none;
+}
+
+.article1{
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+.article2{
+  width:  100%;
+  margin-bottom: 5%;
+}
+
+.article3{
+  width:  100%;
+  margin-bottom: 5%;
+}
+
+.article4{
+  width:  100%;
+  margin-bottom: 5%;
+}
+
 }
 
 
@@ -588,6 +695,7 @@ body {
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
 }
+
 
 }
 
